@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Animação de nomes com rolagem suave e destaque no usuário final.">
+  <title>github.com/matheusfrdev</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="tela">
+    <h1 class="somente-leitor" id="nome-acessivel">bento.me/username</h1>
+    <div class="seletor-usuario" aria-hidden="true">
+      <span class="prefixo" id="prefixo">bento.me/</span>
+      <div class="janela" id="janela">
+        <div class="lista" id="lista"><div class="linha">username</div></div>
+        <div class="degrade degrade--superior"></div>
+        <div class="degrade degrade--inferior"></div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
